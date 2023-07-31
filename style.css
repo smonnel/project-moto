@@ -1,0 +1,87 @@
+h1 {
+    color: brown;
+}
+
+#parking {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    align-items: center;
+}
+
+#moto {
+    height: 150px;
+    width: 80px;
+    background-color: black;
+    position: relative;
+}
+
+.guidon {
+    width: 50px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+} 
+
+#guidonG {
+    left: 75px;
+    top: 20px;
+}
+
+#guidonD {
+    right: 75px;
+    top: 20px;
+}
+
+.retroviseur {
+    width: 50px;
+    height: 10px;
+    background-color: blue;
+    position: absolute;
+}
+
+#retroviseurG {
+    left: -50px;
+    top: 10px;   
+}
+
+#retroviseurD {
+    right: -50px;
+    top: 10px; 
+}
+
+.roue {
+    background-color: gold;
+    width: 30px;
+    height: 70px;
+    position: absolute;
+    border-radius: 10px; 
+    z-index: -1;
+}
+
+#roueAV {
+    top: -50px;
+    left: 35%;
+}
+
+#roueAR {
+    bottom: -50px;
+    right: 35%;
+}
+
+.roueEntiere {
+    height: 225px;
+    width: 35px;
+    position: relative;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; 
+}
+
+.carrosserie {
+    position: absolute;
+}
